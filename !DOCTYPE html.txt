@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pinnacle</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: black;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: #ff1a1a;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      margin: 10px;
+      background: #ff1a1a;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    .cars img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    video {
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: black;
+      padding: 20px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header> 
+ <img src="logo.png" width="120"><br>
+  <nav>
+  <h1>Pinnacle</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Models</a>
+    <a href="#">Offers</a>
+    <a href="#">Marketing</a>
+    <a href="#">Test Drive</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION WITH VIDEO -->
+<section>
+  <h2>Drive to the Pinnacle of Performance</h2>
+
+  <video width="80%" autoplay muted loop controls>
+    <source src="car2.mp4.mp4" type="video/mp4">
+  </video>
+
+  <br>
+  <button class="btn">Explore Models</button>
+  <button class="btn">Book Test Drive</button>
+</section>
+
+<!-- MODELS SECTION WITH PHOTOS -->
+<section class="cars">
+  <h2>Our Models</h2>
+
+  <img src="car1.jpg">
+  <img src="car2.jpg">
+  <img src="car3.jpg">
+  <img src="car4.jpg">
+  <p>Pinnacle X1 | Pinnacle X5 | Pinnacle X8 | Pinnacle EV</p> 
+</section>
+
+<!-- FEATURES -->
+<section>
+  <h2>Key Features</h2>
+  <p>🚗 High Performance | 🔋 Mileage | 🛡 Safety | 🤖 Smart Technology</p>
+</section>
+
+<!-- MARKETING STRATEGY -->
+<section>
+  <h2>Marketing Strategy</h2>
+  <p>
+    Social Media Marketing, SEO, Email Campaigns, Influencer Promotions,
+    Video Marketing, and Paid Advertisements are used to promote Pinnacle Automobiles.
+  </p>
+</section>
+
+<!-- OFFERS -->
+<section>
+  <h2>Promotional Offers</h2>
+  <p>
+    20% Launch Discount | Exchange Bonus | Festive Offers | Easy EMI | Free Service (2 Years)
+  </p>
+</section>
+
+<!-- REEL VIDEO SECTION -->
+<section>
+  <h2>Promotional Reel</h2>
+
+  <video width="60%" controls>
+    <source src="car.mp4.mp4" type="video/mp4">
+  </video>
+
+  <p>Experience power. Experience innovation. Experience Pinnacle.</p>
+</section>
+
+<!-- TEST DRIVE -->
+<section>
+  <h2>Book Test Drive</h2>
+
+  <input placeholder="Your Name"><br><br>
+  <input placeholder="Phone Number"><br><br>
+  <input placeholder="Preferred Model"><br><br>
+
+  <button class="btn">Submit</button>
+</section>
+
+<!-- REVIEWS -->
+<section>
+  <h2>Customer Reviews</h2>
+  <p>⭐⭐⭐⭐⭐ "Amazing performance!"</p>
+  <p>⭐⭐⭐⭐⭐ "Luxury feel and smooth drive!"</p>
+</section>
+
+<!-- LIFECYCLE -->
+<section>
+  <h2>Company Lifecycle</h2>
+  <p>
+    Pinnacle Automobiles is currently in the Introduction Stage,
+    focusing on brand awareness, marketing, and customer acquisition.
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Contact: pinnacleauto@email.com</p>
+  <p>Follow us on Social Media</p>
+</footer>
+
+</body>
+</html>
